@@ -1,8 +1,13 @@
 import java.lang.*;
-class jafirst
+import java.util.*;
+class keyboard
 {
 public static void main(String args[])
 {
-System.out.println("Hello, World");
+Scanner s=new Scanner(System.in);
+String name;
+System.out.println("Enter Your Name : ");
+name = s.next();
+System.out.println("Welcome ! Thanks For Logging " + name );
 }
 }
