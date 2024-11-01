@@ -13,5 +13,5 @@ public class NameAge
             b = s.nextInt();
             System.out.println("My Name is " + a + " & I am " + b + " Years Old ");
         }
-
+ 
     }
