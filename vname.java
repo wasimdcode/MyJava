@@ -4,9 +4,9 @@ class vname
 {
 	public static void main(String arg[])
 	{
-		byte 654Wasim_$=25;
+		byte Wasim_$=25;
 		byte wasimKhan=35;
-		System.out.println(654Wasim_$);
+		System.out.println(Wasim_$);
 
 
 
