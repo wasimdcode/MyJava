@@ -10,7 +10,6 @@ public class Arithmetic
         //Using parenthesis '()' for higher Precendce so calculation will be right.
         int x = (a + b) / 2;
         System.out.println(x);
-
     }
 
 }
