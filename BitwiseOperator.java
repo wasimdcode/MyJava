@@ -7,8 +7,8 @@ public class BitwiseOperator
 {
     public static void main(String arg[])
     {
-        int x = 10, y,z,u;
-        u = -10;
+        int x = 10, y,z;
+        int u = -0b1010;
 
         /* This is the Left Shift Bitwise Operator "<<"
         We can use this for multiplying values n*2's power k
@@ -26,5 +26,9 @@ public class BitwiseOperator
         System.out.println("This is the Output of Left shift --> " + y);
         System.out.println("This is the Output of Right shift --> " + z);
         System.out.println("This is the Output of Unsigned Right shift --> " + u);
+
+
+        System.out.println(String.format("%s",Integer.toBinaryString(x)));
+        System.out.println(String.format("%32s",Integer.toBinaryString(y)));
     }
 }
