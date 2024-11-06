@@ -1,4 +1,4 @@
-import java.lang.*;
+
 class datatype
 {
 	public static void main(String arg[])
